@@ -38,7 +38,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 
 # Langchain Sequential or extended chain
 
-llm_chain = question_template | llm | StrOutputParser()
+
 
 
 
@@ -93,16 +93,25 @@ def Image_chat_Assistant():
     if uploaded_file is not None:
         image = Image.open(uploaded_file)
         st.image(image, caption="Uploaded Image")
- 
 
 
+llm_chain = question_template | llm | StrOutputParser()
+
+def AI_AGENT():
+    st.title('AI AGENT')
+    user_input = st.text_input("Enter your question")
+    if st.button("Send"):
+        if user_input:
+            out_response = llm_chain.invoke(user_input)
+            st.write(out_response)
+        else:
+            st.write("Please enter a Query")
 
 
-
+pg = st.navigation({'AI AGENTS':[AI_AGENT, Image_chat_Assistant]})
+pg.run()
 
 # Load google api form .env file
 
 
 
-
-Image_chat_Assistant()
