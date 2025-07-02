@@ -1,0 +1,7 @@
+dotenv
+langchain
+langchain_google_genai
+langchain_core
+python-dotenv
+streamlit
+Pillow
