@@ -45,9 +45,10 @@ This project is an **AI-powered coding assistant** that leverages **Langchain** 
     python3 -m streamlit run app.py
     ```
 3.  **Configure Google API credentials:**
-    *   Obtain API credentials from the Google.
+    *   Obtain API credentials from the https://aistudio.google.com/apikey.
     *   Set the environment variable `GOOGLE_API_KEY` (or use your preferred method of authentication).  Provide specific instructions.
-4.  **[Any other setup steps specific to your project, e.g., database configuration]**
+    
+
 
 ## 🧑‍💻 Usage
 
