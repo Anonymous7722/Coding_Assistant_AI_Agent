@@ -76,6 +76,8 @@ This project is an **AI-powered coding assistant** that leverages **Langchain** 
 
  ## Screenshot
 
+ ![image](https://github.com/user-attachments/assets/df3aa7fd-69bf-4737-a94e-4730125ef8d6)
+
  ![image](https://github.com/user-attachments/assets/91caa589-c5e1-40c2-b3da-d609d288a673)
  
  ![image](https://github.com/user-attachments/assets/d30e143f-d4aa-4d9a-aaa1-4767329de632)
