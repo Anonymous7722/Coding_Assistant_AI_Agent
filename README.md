@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-This project is an **AI-powered coding assistant** that leverages **Langchain** and the **Google API** (e.g., **Gemini**) to help developers in two key areas:
+This project is an **AI-powered coding assistant** that leverages **Langchain** and the **Google API** to help developers in two key areas:
 
 1. 🛠️ **Error Resolution & Development Ideas** – Analyzes code screenshots and user queries to identify errors, suggest fixes, and propose new features.
 2. 💡 **Programming Q&A Agent** – Provides answers to development-related questions.
@@ -25,7 +25,7 @@ This project is an **AI-powered coding assistant** that leverages **Langchain** 
 
 - 🐍 Python  
 - 🪜 Langchain  
-- 🌐 Google API (e.g., Gemini)  
+- 🌐 Google API  
 - 🖼️ PIL (for image handling, optional)  
 - 🖥️ Streamlit (for UI)  
 
